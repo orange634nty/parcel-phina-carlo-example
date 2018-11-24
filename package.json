@@ -1,0 +1,21 @@
+{
+  "name": "parcel-phina-carlo-example",
+  "version": "1.0.0",
+  "description": "parcel + phina.js using carlo simple example",
+  "main": "index.js",
+  "scripts": {
+    "clear": "rm -rf ./dist && rm -rf ./.cache && rm -rf build",
+    "dev": "npm run clear && parcel src/index.html",
+    "build": "npm run clear && parcel build src/index.html -d build",
+    "carlo": "node app.js"
+  },
+  "author": "orange634",
+  "license": "MIT",
+  "dependencies": {
+    "carlo": "^0.9.28",
+    "phina.js": "^0.2.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}
