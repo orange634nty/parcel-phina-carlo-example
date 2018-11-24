@@ -5,7 +5,7 @@ const bootstrap = async () => {
     width: 385,
     height: 600
   })
-  app.on('exit', () => process.exit());
+  app.on('exit', () => process.exit())
   app.serveFolder('build')
   await app.load('index.html')
 }
