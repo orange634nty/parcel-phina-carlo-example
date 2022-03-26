@@ -18,7 +18,7 @@
   "devDependencies": {
     "js-yaml": ">=3.13.1",
     "kind-of": ">=6.0.3",
-    "minimist": ">=0.2.1",
+    "minimist": ">=1.2.6",
     "parcel-bundler": "^1.12.4",
     "serialize-to-js": ">=3.0.1",
     "set-value": "^4.0.1"
